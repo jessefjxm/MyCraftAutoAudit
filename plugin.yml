@@ -1,0 +1,37 @@
+name: MyCraftAutoAudit
+main: com.mycraft.autoaudit.AutoAudit
+version: 1.0
+author: TerribleHank, Jessefjxm
+commands:
+  sq:
+    description: 查看或申请
+  sqcomment:
+    description: 评论
+  sqcommentadd:
+    description: 补充评论
+  sqcheck:
+    description: 查看
+  sqscore:
+    description: 打分
+  sqremarkadd:
+    description: 补充评价
+  sqstats:
+    description: 统计
+  sqhelp:
+    description: 帮助
+  sqtp:
+    description: 传送
+  sqlist:
+    description: 列表
+  sqscorelist:
+    description: 待审列表
+  sqdelcomment:
+    description: 删除评论
+  sqreload:
+    description: 重载
+  sqsolve:
+    description: 终结申请
+  sqlink:
+    description: 添加链接
+depend: [Vault]
+softdepend: [Vault]

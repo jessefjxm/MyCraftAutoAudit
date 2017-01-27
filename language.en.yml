@@ -1,0 +1,44 @@
+language:
+  time_format: yyyy/MM/dd
+  no_perm: You don't have the permission to do this.
+  plugin_name: AUTO AUDITOR
+  plugin_enabled: Plugin Enabled.
+  plugin_disabled: Plugin disabled.
+  language_no_text: No such text.
+  must_be_player: You must be a player!
+  vault_not_found: Disabled due to no Vault dependency found!
+  vault_initilized: Vault initialized.
+  help_sq: Check your audit requests
+  help_sq_name_desc: Create or modify a request
+  help_sqcomment_name_desc: Comment others request
+  help_sqcheck_name: Check specific player's audit requests
+  help_sqcheck_name_history: Check specific player's audit requests with history
+  help_sqscore_score: For auditors to score a request
+  help_sqstats: For admin to generate statistic
+  help_sqhelp: Show this help
+  help_sqlang_get: Show all language keys and strings.
+  help_sqlang_set: Edit specific key values of language.
+  Total_applied_players: '[Total players]'
+  Total_Audit_Requests: '[Total Audit Requests]'
+  Total_Passed_Requests: '[Total Passed Requests]'
+  Total_Failed_Requests: '[Total Failed Requests]'
+  Total_Avg_Score: '[Total Average Score]'
+  req_no_appliable_group: You dont have any groups that can apply for.
+  req_create_success: Your audit request successfully created.
+  req_modify_success: Your audit request successfully modified.
+  req_check_no_result: No request for %s right now.
+  req_no_player: No such player.
+  req_comment_success: Comment success.
+  req_score_success: Score success.
+  req_time_cooldown: You need to wait %s for next request.
+  modify_time_cooldown: You need to wait %s for next request modification.
+  notice_have_unscored: 'You have following players request to audit:'
+  req_pass: Player %s has successfuuly passed the Audition.
+  req_fail: Player %s has failed the Audition.
+  checkinfo_Title_Building_Audition: '[Building Audition] %s - for %s [%.2f/10]'
+  checkinfo_Title_Audit_Records: '[Audit Records]'
+  checkinfo_Title_Comments: '[Comments]'
+  checkinfo_Title_Request_Detail_History: '[History Version %s] %s'
+  checkinfo_Request_Detail: "[BuildingName] %s \n[BuildingDesc] %s \n[%s][%s]"
+  checkinfo_Audit_Record: '[%s - %.2f/10] %s [%s]'
+  checkinfo_Comment: '[%s] %s [%s]'

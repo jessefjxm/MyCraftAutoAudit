@@ -1,0 +1,40 @@
+mysql:
+  enable: true
+  host: localhost
+  database: mc_mycraft
+  tablename: 'AutoAudit_'
+  username: root
+  password: '123456'
+  port: 3306
+
+apply_cooltime: 7.0
+modify_cooltime: 1.0
+
+default_group: Builder
+auditable_groups:
+  - GongJiang
+  - Architect
+  - PreDever
+  - Dever
+
+audit_criteria:
+  GongJiang:
+    name: §6工匠
+    pass: 3
+    fail: 2
+    req_score: 9.0
+  Architect:
+    name: §e建筑师
+    pass: 3
+    fail: 2
+    req_score: 10.0
+  PreDever:
+    name: §9见习设计师
+    pass: 4
+    fail: 3
+    req_score: 11.0
+  Dever:
+    name: §d设计师
+    pass: 5
+    fail: 4
+    req_score: 12.0

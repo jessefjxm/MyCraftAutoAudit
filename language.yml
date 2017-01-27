@@ -1,0 +1,82 @@
+language:
+  checkinfo_apply_waiting: '§7§l[§f本次申请正在审核中，请耐心等候.§7§l]'
+  checkinfo_apply_success: '§7§l[§a本次申请已成功通过. 请继续努力~§7§l]'
+  checkinfo_apply_fail: '§7§l[§c本次申请未能通过. 请继续完善作品，再接再厉！§7§l]'
+  checkinfo_apply_success_unsolve: '§7§l[§d已达§a通过§d标准，可执行处理§7§l]'
+  checkinfo_apply_fail_unsolve: '§7§l[§d已达§c失败§d标准，可执行处理§7§l]'
+  checkinfo_Title_Building_Audition: '§7§l[§e建筑考核申请§7§l]§f %s - 申请 %s §7§l[§e%.2f/15§7§l][§7%s§7§l]'
+  checkinfo_Title_Audit_Records: '§7§l[§d审核记录§7§l]'
+  checkinfo_Title_Comments: '§7§l[§b玩家评论§7§l]'
+  checkinfo_Title_Link: '§7§l[§e论坛链接§7§l] '
+  checkinfo_Title: '§8§l[§7§l%s§8§l]§7§m ===================================================================== '
+  checkinfo_Title_group: '§8§l[§7§l%s§8§l]§7§m ============================ §e查看%s§e申请 §7§m=========================== '
+  checkinfo_Title_group_state: '§8§l[§7§l%s§8§l]§7§m ========================= §e查看%s§e%s申请 §7§m======================== '
+  checkinfo_Request_Detail: "§7§l[§e名称§7§l]§a %s\n§7§l[§e介绍§7§l]§f %s\n§7§l[§e地点§7§l]§b "
+  checkinfo_Audit_Record: '§7§l[§e%s §f- %.2f/15§7§l]§f %s §7§l[§7%s§7§l]'
+  checkinfo_Comment: '§7§l[§e%s§7§l]§f %s §7§l[§7%s§7§l]'
+  confirm_close: §f确定要结束这一申请吗？
+  confirm_delete_comment: §f确定要删除这一评论吗？
+  confirm_yes: §7§l[§a是§7§l]
+  confirm_no: §7§l[§a否§7§l]
+  confirm_drop_close: §f已放弃结束此申请.
+  confirm_drop_delete: §f已放弃删除此评论.
+  empty_unscored_list: §f目前没有待评分或待完结的申请记录.
+  empty_list: §f目前没有满足要求的审核申请记录.
+  format_error: §c错误的使用方法.
+  help: §b指令使用指南
+  help_player: '§7[§e玩家指令§7] '
+  help_auditor: '§7[§d审核指令§7] '
+  help_admin: '§7[§e管理指令§7] '
+  help_sq: §f查看你自己当前的建筑考核申请情况
+  help_sqhelp: §f显示此帮助.
+  help_sq_name_desc: §f创建或修改你自己的建筑考核申请
+  help_sqcomment: §f评论其他人的考核申请
+  help_sqcheck_name: §f查看其他玩家的建筑考核申请情况
+  help_sqcheck_name_history: §f查看其他玩家的建筑考核申请情况及历史记录
+  help_sqscore: §f审核人员用以评分
+  help_sqstats: §f管理员用以查看统计
+  help_sqlist: §f查看所有审核申请
+  help_sqscorelist: §f查看所有待评分和待完结申请
+  help_sqdelcomment: §f移除指定评论
+  help_sqreload: §f重载配置文件和数据
+  language_no_text: §c查无此文.
+  link_format_error: §e网址格式错误，请检查输入的指令.
+  link_added: §a作品链接添加成功.
+  link_add: §e§n点击以添加论坛对应申请帖地址
+  link_null: §f暂未添加
+  modify_time_cooldown: §c你需要等待 %s 才能进行下一次修改.
+  must_be_player: §fYou must be a player!
+  no_perm: §c权限不足.
+  notice_have_unscored: '§e还有以下玩家的申请有待评分:'
+  notice_have_scoredUnsolved: '§e以下玩家申请已被你评分，但还未达到通过或失败标准:'
+  notice_have_unsolved: '§e还有以下玩家的申请已达到评分要求，等待手动执行处理结果:'
+  plugin_name: '§7§l[§d审核系统§7§l] '
+  plugin_enabled: §fPlugin Enabled.
+  plugin_disabled: §fPlugin disabled.
+  reload_complete: §f重载配置文件和数据完成.
+  req_closed: §c这一申请已经完结，不能再评分或修改评分了.
+  req_no_appliable_group: §c你没有可以申请的建筑职称了.
+  req_create_success: §a建筑考核申请创建成功.
+  req_modify_success: §a建筑考核申请修改成功.
+  req_check_no_result: §e目前 %s 没有任何申请.
+  req_check_no_result_yourself: §e你还没有创建任何建筑审核申请. 如果准备好了，就点击我开始申请吧！
+  req_check_can_apply_yourself: §e你的建筑审核申请冷却时间已到. 如果准备好了，就点击我开始申请吧！
+  req_no_player: §c查无此人.
+  req_comment_success: §a评论成功.
+  req_add_comment_success: §a补充评论成功.
+  req_score_success: §a评分成功.
+  req_add_remark_success: §a补充点评成功.
+  req_score_illegal: §c分数必须在 0.0~15.0 之间.
+  req_time_cooldown: §c你需要等待 %s 才能进行下一次申请.
+  req_pass: §a玩家 %s 成功通过了建筑考核申请. 恭喜！
+  req_fail: §c玩家 %s 未能通过建筑考核申请.
+  remove_comment_success: §f删除评论成功. 该玩家被删记录+1.
+  time_format: yyyy/MM/dd
+  Total_applied_players: '§7§l[§e申请玩家总数§7§l] §f'
+  Total_Audit_Requests: '§7§l[§e申请总数§7§l] §f'
+  Total_Passed_Requests: '§7§l[§e已通过考核§7§l] §f'
+  Total_Failed_Requests: '§7§l[§e未通过考核§7§l] §f'
+  Total_Avg_Score: '§7§l[§e平均分数§7§l] §f'
+  tp_success: §e已传送到申请作品处. 如果传送失败，请检查是否在同一界中.
+  vault_not_found: §fDisabled due to no Vault dependency found!
+  vault_initilized: §fVault initialized.
